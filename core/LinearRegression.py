@@ -73,7 +73,7 @@ class LinearRegression:
         from sklearn.metrics import mean_absolute_error, mean_squared_error
 
         linear_reg = LinearRegression()
-        x_train = np.stack((x1, x2), axis=1)  # X = { [x1[0], x2[0]], [x1[1], x2[1]], [x1[2], x2[2]]... } #
+        x_train = np.stack((x1, x2), axis=1)  # X = { [x1[0], x2[0]], [x1[1], x2[1]], [x1[2], x2[2]]... } 
         y_train = np.array(y)
         linear_reg.fit(x_train, y_train)
 

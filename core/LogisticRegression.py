@@ -22,7 +22,7 @@ class LogisticRegression:
         return -(y * np.log(a) + (1 - y) * (np.log(1 - a)))
 
     def fit(self):
-        self.Js = []  # store cost value for each 100th iteration #
+        self.Js = []  # store cost value for each 100th iteration 
 
         for i in range(self.iteration):
             # forward propagation
