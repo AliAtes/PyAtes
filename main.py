@@ -1,5 +1,5 @@
-import LinearRegression as linReg
-import LogisticRegression as logReg
+from core import LinearRegression as linReg
+from core import LogisticRegression as logReg
 
 if __name__ == '__main__':
     # linReg.LinearRegression().simple_linear_regression()
